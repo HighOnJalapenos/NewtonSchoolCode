@@ -22,15 +22,15 @@ body{
     border-radius: 55px;
     box-shadow: 0 9px 20px hsl(271, 74%, 71%);
     padding: 2%;
-    background-image: linear-gradient(220deg, rgba(239, 159, 235, 0.969), rgba(157, 91, 212, 0.825));
+    background-image: linear-gradient(220deg, rgba(135, 25, 129, 0.969), rgba(123, 17, 209, 0.825));
   }
   
   .title {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 70px;
-    margin-bottom: 70px;
-    color: rgb(157, 91, 212)
+    margin-bottom: 60px;
+    color: rgb(255, 255, 255)
   }
 
   .inputContainer {
@@ -46,20 +46,21 @@ body{
     left: 0px;
     height: 100%;
     width: 100%;
-    border: 1px solid #c8afd3;
+    border: transparent;
     border-radius: 7px;
     font-size: 16px;
     padding: 0 20px;
     outline: none;
     background: none;
     z-index: 0;
-    box-shadow: 0 9px 20px hsl(271, 74%, 71%);
+    /* box-shadow: 0 5px 10px hsl(271, 87%, 66%); */
     font-family: 'Courier New', Courier, monospace;
-    color: rgba(rgb(75, 146, 223), green, blue, alpha);
+    color: rgb(255, 255, 255);
   }
 
   ::placeholder{
     font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255)
   }
 
   :focus::placeholder {
@@ -71,14 +72,15 @@ body{
     top: -8px;
     left: 8px;
     padding: 0 4px;
-    background-color: rgb(145, 25, 145);
-    color: #000000;
+    background-color: rgb(207, 135, 207);
+    color: rgb(135, 25, 129);
     font-size: 14px;
     z-index: 1;
   }
 
   .input:focus{
-    border: transparent;
+    border: 1px solid #c47be4;
+    box-shadow: 0 5px 10px hsl(271, 87%, 66%);
   }
 
   .submitBtn {
@@ -86,8 +88,8 @@ body{
     margin-left: auto;
     padding: 15px 30px;
     border: none;
-    background-color: rgb(145, 25, 145);
-    color: rgb(0, 0, 0);
+    background-color: rgb(207, 135, 207);
+    color: rgb(255, 255, 255);
     border-radius: 6px;
     cursor: pointer;
     font-size: 16px;
@@ -96,5 +98,5 @@ body{
   }
 
   .submitBtn:hover {
-    opacity: 0.9;
+    opacity: 0.8s;
   }

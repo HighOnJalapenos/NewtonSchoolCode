@@ -1,0 +1,68 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+nav{
+    margin-top: 20px;
+}
+
+.svg{
+    width: 150px;
+    margin-left: 3%;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */ /* why does this move up the svg*/
+}
+
+.headerlinks{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    margin: 0px;
+    padding: 0px;
+    width: 40%;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+h1{
+    font-family: 'Roboto Slab', serif;
+    height: 200px;
+    font-size: 8rem;
+    margin: 10% 0 0 3%;
+}
+
+section p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    width: 50%;
+    margin-left: 3%;
+}
+
+/* CSS */
+.button {
+  background-color: #FCFCFD;
+  border-radius: 30%;
+  color: black;
+  cursor: pointer;
+  height: 50px;
+  width: 150px;
+  margin-left: 3%;
+}
