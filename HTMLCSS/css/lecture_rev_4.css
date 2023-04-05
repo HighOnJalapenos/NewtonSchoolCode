@@ -1,0 +1,102 @@
+.plot {
+    height:800px;
+    width: 800px;
+    background-color: blueviolet;
+    left: 30%;
+}
+.room1 {
+    height: 100px;
+    width: 200px;
+    background-color: black;
+}
+.room2 {
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    left: 75%;
+    top: -13%;
+}
+.room3 {
+    height: 100px;
+    width: 200px;
+    background-color: pink;
+    top: 63%;
+}
+.childRoom {
+    height: 30px;
+    width: 80px;
+    background-color: yellow;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.rel {
+    position: relative;
+}
+
+.ab {
+    position: absolute;
+}
+.room4 {
+    height: 100px;
+    width: 200px;
+    background-color: yellow;
+    left: 75%;
+    /* bottom: auto; */
+    top: 50%;
+}
+
+.room4ab {
+    height: 100px;
+    width: 200px;
+    background-color: yellow;
+    right: 0;
+}
+.room1ab {
+    height: 100px;
+    width: 200px;
+    background-color: black;
+}
+.room2ab {
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    right: 0;
+    bottom: 0;
+}
+.room3ab {
+    height: 100px;
+    width: 200px;
+    background-color: pink;
+    bottom: 0;
+}
+
+.cont {
+    max-height: 800px;
+    border: 2px solid;
+    top: 3%;
+    position: relative;
+}
+
+
+.list {
+    padding: 20px;
+    width: 30px;
+    border: 3px solid;
+    border-radius: 10%;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    /* position: fixed; */
+    /* top: 10px; */
+}
+body {
+    height: 1500px;
+}

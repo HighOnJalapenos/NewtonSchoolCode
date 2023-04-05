@@ -1,0 +1,54 @@
+
+.flex {
+    display: flex;  
+
+    
+}
+.section1 {
+    flex-basis: 100%;
+    min-height: 40%;
+    max-height: 40%;
+}
+.container {
+    height: 20rem;
+    width: 15rem;
+    position: relative;
+    border: 3px solid rgb(236, 236, 243);
+}
+.dot {
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 8px;
+}
+.section2 {
+    margin: 12px;
+}
+.adress {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+/* .section1 .img {
+    height: 100%;
+    width: 100%;
+} */
+
+
+/*  
+
+Height => this will set the height of particular div
+max-height=> maximum height of that div
+min-height=> 40%
+*/
+
+
+.profile {
+    border-radius: 50%;
+}
+

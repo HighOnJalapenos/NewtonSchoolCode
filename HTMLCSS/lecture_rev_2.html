@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <style>
+       
+           .secondclass {
+                border-radius: 50px;
+                background-color: brown;
+
+            }
+            .cont {
+                border: 3px solid yellow;
+                background-color: red;
+                color:white;
+                margin:100px;
+                padding: 20px;
+            }
+            #divwithid{
+                border: 3px solid black;
+                background-color: yellow;
+                color:blue;
+                margin:100px;
+                padding: 20px;
+            }
+
+            #check {
+                background-color: gray;
+            }
+            #check1 {
+                background-color: yellow;
+            }
+
+        
+            
+       
+        </style>
+    </head>
+    <body>
+        <!-- Css with inline styling  -->
+        <h1> Css with inline style</h1>
+        <div style="border:2px solid red; margin-left: 100px; margin-top: 30px; margin-bottom: 20px; margin-right: 29px; padding: 20px;">This is inline style , please wrap me inside one box , i am block element</div>
+
+        <!--  Styling div with the class attributes -->
+        <h1>Css With class</h1>
+        <div class="cont"> Please wrap me on the box and give background red and text color white with class attributes</div>
+
+
+        <!--  Styling element with the id -->
+        <h1>Css With class</h1>
+        <div id  ='divwithid'>  Please wrap me on the box and give background yellow and text color blue with id attributes</div>
+
+         <!--  Example create with passing two classes -->
+         <h1>Css With class</h1>
+         <div class  ='secondclass cont' style="background-color: blue;" id="check">  Please wrap me on the box and give background yellow and text color blue with id attributes</div>
+                  <!--  Example create with passing two classes -->
+                  <h1>Css With class</h1>
+                  <div class  ='secondclass cont'  id="check1">  Please wrap me on the box and give background yellow and text color blue with id attributes</div>
+    </body>
+</html>
+
+
+
+
+<!-- priority   -->
+<!-- inline style > id base > class -->
+
+
+
+<!-- how to pass two class in same element -->
