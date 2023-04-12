@@ -32,7 +32,6 @@ body{
 
 .nav-links{
     margin: 2rem;
-    padding: 1rem;
     font-family: var(--mono);
     color: var(--white);
     list-style: none;
@@ -51,4 +50,14 @@ body{
 
 .nav-links li:first-child{
     margin-right: auto;
+}
+
+.search-container{
+    height: calc(100vh - 96px);
+    background-image: url(./photo-1681151581256-43a3768d3168.avif);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
