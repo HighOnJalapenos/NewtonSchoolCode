@@ -58,7 +58,7 @@ body{
 
 .search-container{
     height: calc(100vh - 96px);
-    background-image: url(./photo-1681151581256-43a3768d3168.avif);
+    background-image: url(./photo-1681673211051-dc2534444d0d.avif);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -94,6 +94,10 @@ body{
     font-weight: bolder;
 }
 
+:focus::placeholder{
+    color: transparent;
+}
+
 .search-div button i{
     width: 30px;
 }
@@ -105,4 +109,19 @@ body{
     width: 50px;
     height: 50px;
     cursor: pointer;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card img{
+    height: 50px;
+}
+
+.card{
+    background-color: white;
+    border: #EAF205 solid 1px;
+    padding: 10px 10px;
 }
