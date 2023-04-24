@@ -72,14 +72,72 @@
 
 //console.log(call)
 
-var scopeFinal = "final";
+// var scopeFinal = "final";
+
+// {
+//     var scopeFinal = "final1";
+//     let block = "Scope";
+//     console.log(block) //
+//     console.log(scopeFinal) //
+// }
+
+// console.log(scopeFinal) //
+// console.log(block); //
+
+// const printMultipleOfArray = (value, index, array) => {
+//     console.log("the data in the array multiplied by 2 is ", value*2);
+//     return value*2;
+// }
+
+// function myForEach(callBackFunc, array){
+//    for(let i=0; i<array.length; i++){
+//         callBackFunc(array[i], i, array);
+//    }
+// }
+
+// const arr = [1, 2, 3, 4, 5];
+
+//arr.forEach(printMultipleOfArray);  //-> This is forEach that is inbuilt
+//myForEach(printMultipleOfArray, arr); //-> This one is made by us
+
+// function myMap(callBackFunc, array){
+//     let res = [];
+//     for(let i=0; i<array.length; i++){
+//         res.push(callBackFunc(array[i], i, array));
+//     }
+//     return res;
+// }
+
+// const myMapArray = myMap(printMultipleOfArray, arr);
+// console.log(myMapArray);
+
+// const defaultMapArray = arr.map(printMultipleOfArray);
+// console.log(defaultMapArray);
+
+let a = 50;
+var b = 40;
 
 {
-    var scopeFinal = "final1";
-    let block = "Scope";
-    console.log(block) //
-    console.log(scopeFinal) //
+console.log(b);
+console.log(a);
+var b = 90;
+let a = 200;
+
+function call() {
+console.log(b);
+console.log(a);
+let b = 55;
+var a = 65;
+console.log(a);
+console.log(b);
 }
 
-console.log(scopeFinal) //
-console.log(block); //
+call();
+console.log(a);
+console.log(b);
+
+}
+
+console.log(a);
+
+console.log(b);

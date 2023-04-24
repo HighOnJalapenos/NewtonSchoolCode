@@ -1,0 +1,29 @@
+Script started on Fri Apr 21 23:28:47 2023
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                               [0m[27m[24m[Jdigvijaysingh@Digvijays-Mac-mini Second Intructor % [K[?2004hnnode script.js[1m [0m[0m [?2004l
+[33m40[39m
+/Users/digvijaysingh/Developer/JS/Second Intructor/script.js:127
+console.log(b);
+            ^
+
+ReferenceError: Cannot access 'b' before initialization
+    at call [90m(/Users/digvijaysingh/Developer/JS/Second Intructor/[39mscript.js:127:13[90m)[39m
+    at Object.<anonymous> [90m(/Users/digvijaysingh/Developer/JS/Second Intructor/[39mscript.js:135:1[90m)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1254:14)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1117:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:958:12)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)[39m
+[90m    at node:internal/main/run_main_module:23:47[39m
+
+Node.js v18.15.0
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                               [0m[27m[24m[Jdigvijaysingh@Digvijays-Mac-mini Second Intructor % [K[?2004hcclear[?2004l
+[H[2J[1m[7m%[27m[1m[0m                                                                                                                                                                                                                               [0m[27m[24m[Jdigvijaysingh@Digvijays-Mac-mini Second Intructor % [K[?2004hnnode script.js[1m [0m[0m [?2004l
+[33m40[39m
+[90mundefined[39m
+[33m65[39m
+[33m55[39m
+[33m200[39m
+[33m90[39m
+[33m50[39m
+[33m90[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                               [0m[27m[24m[Jdigvijaysingh@Digvijays-Mac-mini Second Intructor % [K[?2004h
