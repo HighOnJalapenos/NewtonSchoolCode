@@ -144,7 +144,7 @@
 
 // console.log(b);
 
-let arr = [1,1,1,1,1,2,2,2,2,4,4,44,44,44,5,5,5,5];
+// let arr = [1,1,1,1,1,2,2,2,2,4,4,44,44,44,5,5,5,5];
 
 // let obj = arr.reduce((accum, value)=>{
 //     if(!accum.hasOwnProperty(value)){
@@ -157,28 +157,91 @@ let arr = [1,1,1,1,1,2,2,2,2,4,4,44,44,44,5,5,5,5];
 
 // console.log(obj);
 
-function myReduce(callBackFn, array, accum){
-    if(accum===undefined){
-        accum = array[0];
-        for(let i=1; i<array.length; i++){
-            accum = callBackFn(accum, array[i]);
-        }
-    }
-    for(let i=0; i<array.length; i++){
-        accum = callBackFn(accum, array[i]);
-    }
-    return accum;
-}
+// function myReduce(callBackFn, array, accum){
+//     if(accum===undefined){
+//         accum = array[0];
+//         for(let i=1; i<array.length; i++){
+//             accum = callBackFn(accum, array[i]);
+//         }
+//     }
+//     for(let i=0; i<array.length; i++){
+//         accum = callBackFn(accum, array[i]);
+//     }
+//     return accum;
+// }
 
-function makeMap(accum, value){
-    if(!accum.hasOwnProperty(value)){
-        accum[value] = 1;
-    } else {
-        accum[value]++;
-    }
-    return accum;
-}
+// function makeMap(accum, value){
+//     if(!accum.hasOwnProperty(value)){
+//         accum[value] = 1;
+//     } else {
+//         accum[value]++;
+//     }
+//     return accum;
+// }
 
 // let obj = myReduce(makeMap, arr);
-let obj = arr.reduce(makeMap, "hi");
-console.log(obj);
+// let obj = arr.reduce(makeMap, "hi");
+// console.log(obj);
+
+// var firstName = "Digvijay";
+
+// function printDetails(){
+//     var LastName = "Singh"
+//     return function(){
+//         return firstName+LastName;
+//     }
+// }
+
+// const data = printDetails();
+// console.log(data());
+
+// function increase(){
+//     let count = -1;
+//     return ()=>{
+//         return count++;
+//     }
+// }
+// const counter1 = increase();
+// const counter3 = increase();
+
+// console.log(counter1());
+// console.log(counter1());
+
+// const counter2 = increase();
+// console.log(counter2());
+// console.log(counter3());
+
+// function sum(a){
+//     return function(b){
+//         return function(c){
+//             return function(d){
+//                 return function(e){
+//                     return a+b+c+d+e;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+console.log(sum(10)(20)(30)(40)(50)());
+
+function sum(a){
+    return (b)=>{
+        if(b){
+            return sum(a+b);
+        } else {
+            return a;
+        }
+    }
+}
+
+console.log(sum.length);
+
+(function immediateA(b){
+    return (function immediateB(b){
+        console.log(a);
+    })
+})(0)
+
+const [increment, log] = sum(10);
+
