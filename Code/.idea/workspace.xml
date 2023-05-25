@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37646d84-9825-40f9-98c0-6160608c46ba" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Desktop.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/MaxFlags.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/QuickSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/RGB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/binarySearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/chess.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/insertionSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/kOperation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/maxminadd.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/pairslogn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/playground.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/prime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/recursionTribonacci.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/rotatesort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/treeHeight.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/zigtraversal.java" beforeDir="false" />
-    </list>
+    <list default="true" id="37646d84-9825-40f9-98c0-6160608c46ba" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
