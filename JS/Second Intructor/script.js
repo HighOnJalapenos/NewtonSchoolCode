@@ -1,6 +1,5 @@
 // let a
 
-
 // var b
 // console.log("working")
 // let c
@@ -223,25 +222,68 @@
 //     }
 // }
 
-console.log(sum(10)(20)(30)(40)(50)());
+// console.log(sum(10)(20)(30)(40)(50)());
 
-function sum(a){
-    return (b)=>{
-        if(b){
-            return sum(a+b);
-        } else {
-            return a;
-        }
+// function sum(a){
+//     return (b)=>{
+//         if(b){
+//             return sum(a+b);
+//         } else {
+//             return a;
+//         }
+//     }
+// }
+
+// console.log(sum.length);
+
+// (function immediateA(b){
+//     return (function immediateB(b){
+//         console.log(a);
+//     })
+// })(0)
+
+// const [increment, log] = sum(10);
+
+const myPromiseAll = (arrayPromise) => {
+  let count = 0;
+  let out = [];
+  return new Promise((resolve, reject) => {
+    arrayPromise.forEach((promise) => {
+      promise
+        .then((data) => {
+          out.push(data);
+          count++;
+        })
+        .catch((error) => {
+          reject(error);
+        });
+    });
+    if (count === arrayPromise.length) {
+      resolve(out);
     }
-}
+  });
+};
 
-console.log(sum.length);
+const myPromiseAllSettled = (arrayPromise) => {
+  let count = 0;
+  let out = [];
+  return new Promise((resolve, reject) => {
+    arrayPromise.forEach((promise) => {
+      promise
+        .then((data) => {
+          out.push(data);
+          count++;
+        })
+        .catch((error) => {
+          out.push(error);
+        });
+    });
+    if (count === arrayPromise.length) {
+      resolve(out);
+    }
+  });
+};
 
-(function immediateA(b){
-    return (function immediateB(b){
-        console.log(a);
-    })
-})(0)
-
-const [increment, log] = sum(10);
-
+const ps1 = new Promise((resolve) => {
+  resolve;
+});
