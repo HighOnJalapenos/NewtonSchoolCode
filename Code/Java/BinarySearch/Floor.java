@@ -35,5 +35,6 @@ public class Floor {
         int target = sc.nextInt();
         int a = floor(arr, target);
         System.out.print(arr[a]);
+        //changes for git
     }
 }
