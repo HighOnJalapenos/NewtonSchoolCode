@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+#container {
+  display: inline-block;
+  border: 2px solid black;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.active {
+  border-color: green;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+  text-decoration: underline;
+}
