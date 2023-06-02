@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(122, 122, 122);
+}
+
+h4 {
+  text-align: center;
+  font-size: 5rem;
+}
+
+ol {
+  max-width: 80vw;
+  margin: auto;
+  padding: 0;
+}
