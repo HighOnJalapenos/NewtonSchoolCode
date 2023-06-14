@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#container {
+  width: 30vmin;
+  height: 30vmin;
+  min-width: 200px;
+  min-height: 200px;
+  margin: 10vmin;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1vmin;
+  background-color: #0d0d0d;
+}
+
+.cell {
+  border: none;
+  cursor: pointer;
+  font-size: 3em;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 4rem;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
