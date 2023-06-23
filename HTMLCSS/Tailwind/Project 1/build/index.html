@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" class="sm:scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Acme Rockets</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
+    <header class="sticky top-0 z-10 text-white">
+      <section
+        class="mx-auto flex max-w-4xl items-center justify-between bg-[url('https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/starfield-banner.jpg')] p-4"
+      >
+        <h1 class="text-3xl font-medium">
+          <a href="#hero">🚀 Acme Rockets</a>
+        </h1>
+        <div>
+          <button
+            id="mobile-open-button"
+            class="text-3xl focus:outline-none sm:hidden"
+          >
+            &#9776;
+          </button>
+          <nav class="hidden space-x-8 text-xl sm:block" aria-label="main">
+            <a href="#rockets" class="hover:opacity-60">Our Rockets</a>
+            <a href="#testimonials" class="hover:opacity-60">Testimonials</a>
+            <a href="#contact" class="hover:opacity-60">Contact Us</a>
+          </nav>
+        </div>
+      </section>
+    </header>
+    <main class="mx-auto max-w-4xl">
+      <section
+        id="hero"
+        class="mb-12 flex scroll-mt-40 flex-col-reverse items-center justify-center gap-8 p-6 sm:flex-row"
+      >
+        <article class="cursor-default sm:w-1/2">
+          <h2
+            class="max-w-md text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-left sm:text-5xl"
+          >
+            We boldy go
+            <span class="text-indigo-700 dark:text-indigo-300"
+              >Where no Rocket</span
+            >
+            has gone before....
+          </h2>
+          <p
+            class="mt-4 max-w-md text-center text-2xl text-slate-700 dark:text-slate-400 sm:text-left"
+          >
+            We're building rockets for the next century today. From the moon to
+            Mars, Jupiter and beyond...
+          </p>
+          <p
+            class="mt-4 max-w-md text-center text-2xl text-slate-700 dark:text-slate-400 sm:text-left"
+          >
+            Think Acme Rockets.
+          </p>
+        </article>
+        <img src="./img/rocketdab.png" alt="Rocket Dab" class="w-1/2" />
+      </section>
+      <hr class="mx-auto w-1/2 bg-black dark:bg-white" />
+
+      <section id="rockets" class="my-12 scroll-mt-20 p-6">
+        <h2
+          class="mb-6 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl"
+        >
+          Our Rockets
+        </h2>
+        <ul
+          class="mx-auto my-12 flex list-none flex-col items-center gap-8 sm:flex-row"
+        >
+          <!---------------First card---------------------->
+          <li
+            class="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-slate-900 bg-white px-2 py-6 shadow-xl dark:border-gray-100 dark:bg-black sm:w-5/6"
+          >
+            <img src="./img/rocketman.png" alt="Explorer" class="mb-6 w-1/2" />
+            <h3 class="text-center text-3xl text-slate-900 dark:text-white">
+              Explorer
+            </h3>
+            <p
+              class="mt-2 hidden text-center text-3xl text-slate-500 dark:text-slate-400 sm:block"
+            >
+              $
+            </p>
+            <p
+              class="mt-2 text-center text-2xl text-slate-500 dark:text-slate-400 sm:hidden"
+            >
+              Affordable Exploration
+            </p>
+          </li>
+          <!---------------Second card---------------------->
+          <li
+            class="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-slate-900 bg-white px-2 py-6 shadow-xl dark:border-gray-100 dark:bg-black sm:w-5/6"
+          >
+            <img
+              src="./img/rocketride.png"
+              alt="Adventurer"
+              class="mb-6 w-1/2"
+            />
+            <h3 class="text-center text-3xl text-slate-900 dark:text-white">
+              Adventurer
+            </h3>
+            <p
+              class="mt-2 hidden text-center text-3xl text-slate-500 dark:text-slate-400 sm:block"
+            >
+              $$
+            </p>
+            <p
+              class="mt-2 text-center text-2xl text-slate-500 dark:text-slate-400 sm:hidden"
+            >
+              Best-Selling Rocket
+            </p>
+          </li>
+          <!---------------Third card---------------------->
+          <li
+            class="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-slate-900 bg-white px-2 py-6 shadow-xl dark:border-gray-100 dark:bg-black sm:w-5/6"
+          >
+            <img src="./img/rocketman.png" alt="Explorer" class="mb-6 w-1/2" />
+            <h3 class="text-center text-3xl text-slate-900 dark:text-white">
+              Infinity
+            </h3>
+            <p
+              class="mt-2 hidden text-center text-3xl text-slate-500 dark:text-slate-400 sm:block"
+            >
+              $$$
+            </p>
+            <p
+              class="mt-2 text-center text-2xl text-slate-500 dark:text-slate-400 sm:hidden"
+            >
+              Luxury Starship
+            </p>
+          </li>
+        </ul>
+      </section>
+      <hr class="mx-auto w-1/2 bg-black dark:bg-white" />
+      <section id="testimonials" class="my-12 p-6">
+        <h2
+          class="mb-6 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl"
+        >
+          Testimonials
+        </h2>
+        <figure class="my-12">
+          <blockquote
+            class="py12 relative rounded-3xl bg-teal-600 pl-14 pr-8 dark:bg-black"
+          >
+            <p
+              class="dakr:text-slate-400 mt-2 text-left text-2xl text-white before:absolute before:left-0 before:top-0 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-white before:opacity-25 before:content-['\201C'] after:absolute after:left-0 after:top-0 after:translate-x-2 after:translate-y-2 after:transform after:font-serif after:text-9xl after:text-white after:opacity-25 after:content-['\201D'] sm:text-3xl"
+            ></p>
+          </blockquote>
+        </figure>
+      </section>
+      <hr class="mx-auto w-1/2 bg-black dark:bg-white" />
+      <section id="contact" class="my-12 p-6">
+        <h2
+          class="mb-6 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl"
+        >
+          Contact Us
+        </h2>
+      </section>
+    </main>
+  </body>
+</html>
